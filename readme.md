@@ -25,7 +25,6 @@
     ./node_modules/.bin/sequelize db:migrate
     ./node_modules/.bin/sequelize db:seed:all
     ```
-    < Tambien se puede agregar datos ingresando en el body de un post, pueden ser postman o insomnia >
 
 * 5.- Correr Servidor
     ```
