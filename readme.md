@@ -12,8 +12,10 @@
     ```
 * 2.- Crea archivo .env en raiz para las variables de entorno
     < Se recomienda postgres>
-    < Ejemoplo: DATABASE_URL= postgres://USER:PASSWORD@localhost:5432/DATABASE_NAME >
-
+    < Ejemplo >: 
+    ```
+    DATABASE_URL= postgres://USER:PASSWORD@localhost:5432/DATABASE_NAME >
+    ```
 * 3.- Corre en terminal y en la carpeta raiz del proyecto para instalar dependencias
     ```
     npm install
@@ -31,3 +33,9 @@
     ```
 
 * 6.- Se requieren softwares para simular peticiones tales como [Postman](https://www.postman.com/) e [Insombian](https://insomnia.rest/download/)
+
+* 7.- El proyecto fue Realizado con framework express y programado en js la logica del problema a resolver esta en:
+
+    ```
+    ./Funciones de apoyo/ObtenerPaga.js
+    ```
