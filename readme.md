@@ -39,3 +39,28 @@
     ```
     ./Funciones de apoyo/ObtenerPaga.js
     ```
+
+* 8.- Usando el metodo GET se consultan todos los jugadores y retorna la paga calculada para cada uno:
+    ```
+    http://localhost:3000/jugadores/
+    ```
+
+
+
+* 9.- Se puede agregar nuevo jugador con metodo POST con la siguiente estructura: 
+    ```
+    {  
+         "name":"jugador Nombre",
+         "nivel": "A",
+         "goles":20,
+         "sueldo":60000,
+         "bono":15000,
+         "sueldo_completo": null,
+         "equipo":"rojo"
+    }
+    ```
+
+* 10.- Se puede eliminar a un jugador con el metodo DELETE ingresando el id de jugador en los params:
+    ```
+    http://localhost:3000/jugadores/id_jugador
+    ```

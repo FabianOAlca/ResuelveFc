@@ -38,6 +38,8 @@ function coeficenteJugador(goles,nivel){
         return coeficiente
     }
 }
+
+console.log(coeficentEquipo);
     
 
 function ObtenerPaga(jugadores){

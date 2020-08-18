@@ -26,4 +26,17 @@ router.post('/', function(req,res){
   }) 
 })
 
+router.delete("/:id", function (req, res) {
+  const jugadorId = req.params.id
+
+  db.Jugadores.destroy({ where: { id: jugadorId } })
+    .then( ()=> {
+      res.json({ success: true })
+    })
+    .catch((error)=> {
+      res.status(500).json({ error: error })
+    })
+})
+
+
 module.exports = router
