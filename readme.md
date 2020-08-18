@@ -11,10 +11,10 @@
     cd Resuelve_FC
     ```
 * 2.- Crea archivo .env en raiz para las variables de entorno
-    < Se recomienda postgres>
-    < Ejemplo >: 
+    < Se recomienda Postgresql>
+    <Ejemplo: 
     ```
-    DATABASE_URL= postgres://USER:PASSWORD@localhost:5432/DATABASE_NAME >
+    DATABASE_URL= postgres://USER:PASSWORD@localhost:PORT/DATABASE_NAME >
     ```
 * 3.- Corre en terminal y en la carpeta raiz del proyecto para instalar dependencias
     ```
@@ -25,7 +25,7 @@
     ./node_modules/.bin/sequelize db:migrate
     ./node_modules/.bin/sequelize db:seed:all
     ```
-    < Tambien se puede agregar datos ingresando en el body de un post, ayudante con postman o insomnia >
+    < Tambien se puede agregar datos ingresando en el body de un post, pueden ser postman o insomnia >
 
 * 5.- Correr Servidor
     ```
